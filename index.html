@@ -14,13 +14,14 @@
       referrerpolicy="no-referrer"
     />
   </head>
+  
   <body>
-    <div class="container">
+    <div class="container"> 
       <!-- Header -->
       <header>
         <nav class="nav">
           <div class="navContainer">
-            <p><img class="logo" src="./images/logo.svg" alt="" /></p>
+            <p><img class="logo" src="./images/Copy of Hannah and Amanda logo 2.svg" alt="" /></p>
             <div class="toggle">
               <p class="show" id="open">
                 <img src="./images/icon-hamburger.svg" alt="" />
@@ -33,10 +34,10 @@
 
           <ul class="ulHide" id="ul">
             <li><a href="#about"> ABOUT US</a></li>
-            <li><a href="#">LOCATION</a></li>
+            <li><a href="#address">LOCATION</a></li>
             <li><a href="#art">ART WORK</a></li>
-            <li><a href="#"> GUIDE</a></li>
-            <li><a href="#">SIGN UP</a></li>
+            <li><a href="#guide"> GUIDE</a></li>
+            <li><a href="#signup">SIGN UP</a></li>
           </ul>
 
           <div>
@@ -53,14 +54,14 @@
       </header>
 
       <!-- Video -->
-      <div video>
-        <video src="./images/exVid.mp4" autoplay class="exvid"></video>
+      <div >
+        <video  autoplay src="./images/exVid.mp4"  class="exvid"></video>
       </div>
 
       <!-- About us -->
       <div class="about" id="about">
         <div class="about-p">
-          <h1>Welcome to Hannah & Amanda Art Gallery</h1>
+          <h1 class="about-h1">Welcome to Hannah & Amanda Art Gallery</h1>
           <p>
             At Hannah and Amanda Art Gallery, we are passionate about connecting
             art enthusiasts with exceptional pieces that inspire, provoke
@@ -94,7 +95,7 @@
       <!-- Art display -->
       <div class="recent" id="art">
         <div class="recenthead">
-          <h1>Recent Art Designs</h1>
+          <h2>Recent Art Designs</h1>
           <p>
             As advocates for both established and emerging artists, we are
             committed to fostering an inclusive environment that supports
@@ -108,7 +109,7 @@
           </p>
         </div>
 
-        <div class="art-display">
+        <div class="art-display" id="art-display">
           <div class="card1">
             <img src="./images/ex1.jpg" alt="" />
           </div>
@@ -129,9 +130,10 @@
           </div>
         </div>
       </div>
-      <!-- Exhibition slide -->
-      <div class="exhibition">
-        <h1>Art Exhibition</h1>
+
+      <!-- Exhibition slide  -->
+       <div class="exhibition"> 
+        <h2>Art Exhibition</h1>
 
         <div class="exhibition-slide">
           <div class="card2">
@@ -169,8 +171,8 @@
 
       <!-- News -->
       <div>
-        <h1>What Art Is Trending Today?</h1>
-        <p>
+        <h2>What Art Is Trending Today?</h1>
+        <p class="trend-p">
            What kind of art is popular right now? -
           Jose Art Gallery From digital art to street art and minimalism to
           abstract expressionism, the art world is experiencing a renaissance
@@ -189,8 +191,8 @@
 
       <footer>
         <div class="footer">
-            <div class="footer-logo" class="foot" >
-            <img src="./images/logo.svg" alt="" />
+            <div  class="foot" >
+            <img class="footer-logo" src="./images/Copy of Hannah and Amanda logo 2.svg" alt="" />
           
             <ul class="footer-icon" data-aos="flip-left">
               <li><img class="iconli" src="./images/icon-facebook.svg" alt="" /></li>
@@ -200,40 +202,52 @@
             </ul>
           </div>
 
-          <div class="footer-nav">
-          <div class="footer-nav1" class="foot">
-            <ul >
-              <li><a class="footerli" href="#">Home</a></li>
-              <li><a class="footerli" href="#"> Pricing</a></li>
-              <li><a class="footerli" href="#">Products</a></li>
-              <li><a class="footerli" href="#">About Us</a></li>
+          <div >
+          
+            <ul class="footer-ul" >
+               <li ><a href="#about"> ABOUT US</a></li>
+              <li ><a href="#">LOCATION</a></li>
+              <li><a href="#art">ART WORK</a></li>
+              <li><a href="#"> GUIDE</a></li>
+              <li><a href="#">SIGN UP</a></li>
             </ul>
-             </div>
-           
-         
           </div>
+           </div>
+          
 
-          <!-- <div class="foot">
+          <div id="guide"   class="foot">
+            <p>Sign up for our monthly newsletter to receive information on upcoming events and resident organizations.</p>
             <div class="foot1">
-              <input type="email" name="" id="email" placeholder="alexdee/mail" /><button class="btn-footer"><a class="btn1" href="#">Go</a></button> <br>
+              <form action="" id="signup">
+              <input type="email" name="" id="email" placeholder="Email" /><button class="btn-footer"><a class="btn1" href="#">Submit</a></button> <br>
             <label for="insert">Please insert a valid email</label> <br> <br>
-            
+            </form>
+           
             </div>
-            <p class="footer-p"> Copyright 2024.All Rights Reserved</p>
+            
+
+            <div class="footer-p">
+              <p id="address">436 Lucerne Way, Gatlinburg, TN 37738</p>
+              <p>Tel:+14232501119</p>
+              <p > Copyright &copy; 2024- Hannah Amanda Art Gallery.All Rights Reserved</p>
+              
+            </div>
           
             
-          </div> -->
+          
 
           
-        </div>
-        <div >
+          
+        <!-- <div >
           <p class="design">
             <i>Challenge by frontend Mentor, Designed by Alexdee</i>
         </p>
-      </div>
+      </div> -->
       </footer>
     </div>
     </div>
+    <script src="index.js"></script>
+
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -278,8 +292,8 @@
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
+              slidesToShow: 2,
+              slidesToScroll: 2,
               autoplay: true,
               autoplaySpeed: 2000,
             },
