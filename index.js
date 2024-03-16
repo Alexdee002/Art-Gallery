@@ -21,6 +21,6 @@ let open=document.querySelector("#open");
            open.classList.add("show");
            open.classList.remove("hide");
            ul.classList.add("ulHide");
-        }
+        } 
     })
     
