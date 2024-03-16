@@ -30,11 +30,12 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 350px;
+  gap: 250px;
    margin: 30 0;  
    background-color: #000;
    position:fixed;
    top: -50px;
+   z-index: 99999;
    width: 100%;
    transition: top 0.3s;
    
