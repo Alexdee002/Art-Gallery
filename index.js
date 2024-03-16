@@ -11,7 +11,7 @@ let open=document.querySelector("#open");
             ul.classList.remove("ulHide");
             close.classList.add("show");
             
-        }
+        } 
     })
         close.addEventListener("click", function () {
         if (close.classList.contains("hide")) {
