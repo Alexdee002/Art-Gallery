@@ -10,7 +10,7 @@ let open=document.querySelector("#open");
             open.classList.add("hide");
             ul.classList.remove("ulHide");
             close.classList.add("show");
-            
+             
         } 
     })
         close.addEventListener("click", function () {
