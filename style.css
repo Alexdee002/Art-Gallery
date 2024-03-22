@@ -109,7 +109,7 @@ ul li:hover {
 }
 .about-h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   line-height: 4rem;
 }
@@ -123,7 +123,7 @@ ul li:hover {
 }
 .recent-h1{
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 4rem;
 }
@@ -155,7 +155,7 @@ ul li:hover {
 }
 h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   line-height: 4rem;
   
