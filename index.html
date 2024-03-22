@@ -13,6 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>    
   
   <body>
@@ -55,7 +56,7 @@
 
       <!-- Video -->
       <div >
-        <video  autoplay muted src="./images/exVid.mp4"  class="exvid"></video>
+        <video  autoplay muted src="./images/exVid.mp4"  class="exvid" ></video>
       </div>
 
       <!-- About us -->
@@ -84,11 +85,11 @@
           </p>
         </div> 
 
-        <div>
+        <div >
           <img
             class="aboutimg"
             src="./images/343px-National_Gallery_of_Art_-_West_Building_entrance.jpg"
-            alt=""
+            alt="" data-aos="flip-right" 
           />
         </div>
       </div>
@@ -110,23 +111,23 @@
         </div>
 
         <div class="art-display" id="art-display">
-          <div class="card1">
-            <img src="./images/ex1.jpg" alt="" />
+          <div class="card1" >
+            <img src="./images/ex1.jpg" alt="" data-aos="flip-up"  />
           </div>
           <div class="card1">
-            <img src="./images/ex3.jpg" alt="" />
+            <img src="./images/ex3.jpg" alt="" data-aos="flip-left"  />
           </div>
           <div class="card1">
-            <img src="./images/ex2.jpg" alt="" />
+            <img src="./images/ex2.jpg" alt=""data-aos="flip-down"  />
           </div>
           <div class="card1">
-            <img src="./images/ex4.jpg" alt="" />
+            <img src="./images/ex4.jpg" alt="" data-aos="flip-right"  />
           </div>
           <div class="card1">
-            <img src="./images/ex5.jpg" alt="" />
+            <img src="./images/ex5.jpg" alt="" data-aos="flip-up" />
           </div>
           <div class="card1">
-            <img src="./images/art6.jpg" alt="" />
+            <img src="./images/art6.jpg" alt="" data-aos="flip-down"  />
           </div>
         </div>
       </div>
@@ -249,6 +250,10 @@
     </div>
     </div>
     <script src="index.js"></script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+    AOS.init();
+  </script>
 
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"

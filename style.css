@@ -315,18 +315,18 @@ label {
   header {
     max-width: 100%;
     background: #000;
-    height: 10px;
+    height: 5px;
   }
 
   .nav {
     max-width: 100%;
-    margin: auto 0px;
+    margin: 0 0px;
     /* padding: 10px 0; */
     display: block;
     position: relative;
     background: #000;
     position: fixed;
-    top: -50;
+    /* top: -20; */
     z-index: 99999;
   }
   .navContainer {
