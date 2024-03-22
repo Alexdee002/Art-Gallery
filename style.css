@@ -13,8 +13,8 @@ body {
 }
 
 .logo {
-  width: 170px;
-  height: 120px;
+  width: 180px;
+  height: 130px;
   margin-top: 30px;
 }
 .container {
@@ -216,8 +216,8 @@ footer {
 
 .footer-logo {
   margin-top: auto;
-  width: 140px;
-  height: 110px;
+  width: 150px;
+  height: 130px;
 }
 
 .footer-icon {
@@ -556,7 +556,7 @@ label {
     background: #fafafa;
     border: 1px solid #af89bb;
     border-radius: 5px;
-    width: 300px;
+    width: 270px;
     height: 40px;
     text-align: center;
   }
